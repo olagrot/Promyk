@@ -1,0 +1,42 @@
+main{
+    margin-top: 30px;
+    width:1200px;
+    height: 800px;
+    background-color: rgb(231, 231, 231);
+    margin-left: auto;
+    margin-right: auto;
+}
+.lewa{
+    float: left;
+}
+.opis-mapa p{
+    padding: 30px 30px;
+    /* text-align: center; */
+    font-size: 30px;
+    margin-left: 100px;
+}
+.mapa{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.prawa{
+    float: left;
+}
+.czynne {
+    margin-top: 80px;
+    /* margin-left: 100px; */
+    margin-right: auto;
+    /* text-align: center; */
+}
+.czynne h3{
+    margin-left: 170px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.czynne h5, p{
+    margin-left: 200px;
+
+}
+.inne-dane{
+    margin-top: 50px;
+}

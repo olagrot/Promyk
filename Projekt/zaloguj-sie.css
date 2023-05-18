@@ -1,0 +1,80 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+main {
+	font-family: montserrat, arial, verdana;
+    width:1000px;
+    height: 800px;
+    background-image: url("zdjecia/zaloguj-sie.jpg");
+    background-size: cover; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+/*form styles*/
+#msform {
+	width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	/* position: relative; */
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+    outline:black;
+    
+}
+
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: rgb(22, 84, 177);
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover {
+	background-color: rgba(22, 84, 177, 0.809);
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+
+

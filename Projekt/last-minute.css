@@ -1,0 +1,34 @@
+main{
+    margin-top: 30px;
+    width:1000px;
+    height: 1600px;
+    background-color: rgb(231, 231, 231);
+    margin-left: auto;
+    margin-right: auto;
+}
+.napis{
+    padding: 30px 30px;
+    text-align: center;
+    color: #174806;
+}
+.zdjatka{
+    /* margin: 30px 30px; */
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.zdjatka img{
+    height: 340px;
+    width: 340px;
+    padding: 30px;
+
+}
+main h4{
+    padding: 60px;
+}
+main p{
+    padding-left: 60px;
+    padding-right: 60px;
+}

@@ -1,0 +1,40 @@
+.gallery
+{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#a,#b,#c,#d {
+	margin: 2em auto;
+	box-shadow: 10px 10px 10px #777;
+}
+@media (max-width: 480px){
+	.gallery {
+		flex-direction: column;
+	}
+	p {
+		height: 50px;
+	}
+	
+}
+#box1,#box2,#box3,#box4
+{
+    width: 340px;
+    
+}
+#naps
+{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+#a:hover,#b:hover,#c:hover,#d:hover
+{
+ 
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}

@@ -1,0 +1,198 @@
+
+ #fs
+  
+ {
+     margin-top: 30px;
+     width:1000px;
+     height: 4800px;
+     background-color: rgb(231, 231, 231);
+     margin-left: 500px;
+ }
+
+ #s
+ {
+    margin-top: 30px;
+ }
+ 
+ #dr
+ {
+     margin-top: 30px;
+ }
+ #qw
+ {
+     text-align: center;
+     font-size: 30px;
+     font-weight: 600;
+     margin-top: 50px;
+ }
+ #cv
+ {
+     font-size: 30px;
+     font-weight: 700;
+     text-align: center;
+     margin-top: 15px;
+ }
+ #calosc
+ {
+     justify-content: center;
+    margin-left: 200px;
+    margin-top: 150px;
+ }
+ #df
+ {
+     font-size: 30px;
+     font-weight: 700;
+     text-align: center;
+     
+ }
+#family
+{
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+#zd1
+{
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    margin-top: 30px;
+    margin-left: 50px;
+}
+ .galleryy
+{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#m,#m,#m,#m {
+	margin: 2em auto;
+	box-shadow: 10px 10px 10px #777;
+}
+@media (max-width: 480px){
+	.galleryy {
+		flex-direction: column;
+	}
+	f {
+		height: 50px;
+	}
+	
+}
+#box9,#box8,#box7,#box6
+{
+    width: 340px;
+    
+}
+#ww
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#xd
+  
+  {
+      margin-top: 30px;
+      width:1000px;
+      height: 2200px;
+      background-color: rgb(231, 231, 231);
+      margin-left: 500px;
+  }
+#zegarek
+{
+    font-weight: 700;
+    font-size: 35px;
+    color:rgb(63, 63, 63);
+    margin-left: 1100px;
+    margin-top: -10px;
+}
+#f
+{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+#m:hover,#m:hover,#m:hover,#m:hover
+{
+ 
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
+
+
+
+#s
+{
+    margin-left: 50px;
+    
+}
+
+
+
+
+#napis22
+{
+    
+    margin-left: 40px;
+ margin-top: 30px;  
+}
+#napp
+{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#piee
+{
+    height: 50px;
+    margin: auto;
+  margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+   
+}
+#napis111
+{
+    
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+
+#tytull
+{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#zegarek
+{
+    font-weight: 700;
+    font-size: 35px;
+    color:rgb(63, 63, 63);
+    margin-left: 1100px;
+    margin-top: -10px;
+}
+#obb
+{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#opiniee 
+{
+    width: 700px;
+    margin-left: 120px;
+}
+
+ 

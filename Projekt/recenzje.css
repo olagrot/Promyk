@@ -1,0 +1,67 @@
+#napis2
+{
+    
+    margin-left: 40px;
+ margin-top: 30px;  
+}
+#nap
+{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 40px;
+}
+#kto
+{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+#pie
+{
+    height: 50px;
+    margin: auto;
+  margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+   
+}
+#napis11
+{
+    
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    
+}
+
+#fe
+  
+  {
+      margin-top: 30px;
+      width:1000px;
+      height: 1200px;
+      background-color: rgb(231, 231, 231);
+      margin-left: 500px;
+  }
+#tytul
+{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#zegarek
+{
+    font-weight: 700;
+    font-size: 35px;
+    color:rgb(63, 63, 63);
+    margin-left: 1100px;
+    margin-top: -10px;
+}
+#ob
+{
+    margin-top: 20px;
+    margin-left: 30px;
+}

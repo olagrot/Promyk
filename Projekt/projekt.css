@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/*<p> just p, class -> "." id -> "#" najwazniejsze: style w html, id, class, ogolne odowlania*/
+/* atrribiute - definiuje co zmieniac, values - daje zmiane*/
+  body { 
+    margin: 0%;
+    font-family: sans-serif;  
+    /* font-size: 100%;  */
+    background-color: rgb(239, 246, 247);/*rgb rozni sie tym od rgba ze w rgba ostania wartosc jest miedzy 0 a 1 i dodaje przezroczystosc*/
+  } 
+  .pasek-zaloguj-sie {
+    background-color: #24262b;
+    padding-right: -15px;
+    display: flex;
+    justify-content:flex-end;
+    /* height: 30px; */
+  }
+  .pasek-zaloguj-sie .kontakt {
+    padding-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+
+  }
+  .pasek-zaloguj-sie .zaloguj-sie {
+    padding-right: 80px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  #pasek-gorny {
+    /* margin: 10px; */
+    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, .73), 0px 0px 18px rgba(0, 0, 0, .13);  */
+    /* background-color:#a6f4fa; */
+    background-color: rgb(22, 84, 177);
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 10vp;
+    
+    
+    
+  }
+  #menu {
+    width:550px;
+    margin:0 auto;
+    padding:0;
+    list-style-type:none;
+    font-size: 20px;
+  }
+
+
+
+  /* pierwszy element - li - elementu o identyfikatorze menu */
+  #menu > li:first-child {
+    width:50%;
+  }
+
+  #menu a {
+    color:rgb(239, 246, 247);
+    text-transform: uppercase;
+  }
+
+  /* wygląd elementów - a */
+  #menu > li > a {
+    display:block;
+    padding:15px;
+    text-decoration:none;
+    text-align:center;
+    /* color:#000;
+    background-color:#DDD;
+    box-shadow:0 0 0 1px #FFF inset; */
+    text-transform: uppercase;
+  }
+
+  /* wygląd elementów - a - po najechaniu kursorem myszki na element - li */
+  #menu > li:hover > a {
+    color:#24262b;
+    background-color:rgb(239, 246, 247);
+    background-image:none;
+  }
+
+  /* -------------------- ROZWIJANA CZĘŚĆ MENU CSS -------------------- */
+  /* wygląd elementów - li - rodzica każdej części rozwijanej menu CSS */
+  #menu > li {
+    position:relative;
+  }
+
+  /* wygląd elementów - ul */
+  #menu > li > ul {
+    width:100%;
+    visibility:hidden;
+    position:absolute;
+    z-index:1;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    background-color:#24262b;
+    color: rgb(239, 246, 247);
+  }
+
+  /* wygląd elementów - ul - po najechaniu kursorem myszki na element - li */
+  #menu > li:hover > ul {
+    visibility:visible;
+  }
+
+  /* wygląd elementów - li */
+  #menu > li > ul > li {
+    box-shadow:0 -4px 4px -4px #AAA;
+  }
+
+  /* wygląd pierwszego dziecka elementu typu - li */
+  #menu > li > ul > li:first-child {
+    box-shadow:none;
+  }
+
+  /* wygląd ostatniego dziecka elementu typu - li */
+  #menu > li > ul > li:last-child {
+    box-shadow:0 -4px 4px -4px #AAA, 0 4px 4px -4px #AAA;
+  }
+
+  /* wygląd elementów - a */
+  #menu > li > ul > li > a {
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    color: rgb(239, 246, 247);
+  }
+
+  /* wygląd elementów - a - po najechaniu kursorem myszki na element - li */
+  #menu > li > ul > li:hover > a {
+    color:#24262b;
+    background-color:rgb(22, 84, 177);
+    /* background-image:linear-gradient(#FFF, #EEE, #FFF); */
+  }
+
+  /* --------------- ANIMOWANIE ROZWIJANEJ CZĘŚCI MENU CSS --------------- */
+  /* wygląd elementów - ul */
+  #menu > li > ul {
+    transform:scaleY(0);
+    -webkit-transform:scaleY(0);
+    transform-origin:50% 0;
+    -webkit-transform-origin:50% 0;
+    transition:250ms;
+  }
+
+  /* wygląd elementów - ul - po najechaniu kursorem myszki na element - li */
+  #menu > li:hover > ul {
+    transform:scaleY(1);
+    -webkit-transform:scaleY(1);
+  }
+  .logo {
+    margin-right: 45vw;
+    color: #1e2630e7;
+    font-size: 30px;
+    font-style: normal;
+    transition: all 0.3s ease;
+    height: 70px;
+
+  }
+
+  main{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+  }
+
+  .kontakt-pasek {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  /* #zdjecie-tlo { */
+    /* width: 100%; */
+    /* height: 40vh; vh=view high w tym przypadku %, moze byc tez vw=dlugosc */
+    /* background-image: url("wakacje_glowne.jpg");  */
+    /* padding : top, right, left, bottom - same margin - roznica padding dziala na zdjecia, margines na to co wokol zdjecia*/
+  /* } */
+  /* ctr +  /  zeby szybko zakomentowac*/
+  #wyszukiwarka {
+    background-image: url("zdjecia/tlo.jpg");
+    background-size: cover; /*zdjecie w tle dostosowuje sie do rozmiaru strony*/
+    height: 60vh;
+    /* padding: 200px 50px; */
+    margin-top: 80px;
+    /* background-color: rgba(239, 246, 247, 0.755); */
+    /* margin: 50px 100px; */
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    
+  }
+  .wyszukiwanie-bloki {
+    background-color: rgba(239, 246, 247, 0.755); 
+    padding: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+    
+  }
+  .wyszukiwanie-bloki input{ /*input czyli to co w bloczkach*/
+    width: 10vw;
+    padding: 10px 5px;
+    margin: 10px;
+    outline: none;
+    
+  }
+  .przycisk-szukaj {
+    background-color: rgba(216, 35, 119, 0.815);
+    border: none;
+    border-radius: 10px; /*dzieki temu jest zaokraglony*/
+    color: white;
+    font-size: 17px;
+    transition: 300ms ease-in-out; /*jak szybko sie bedzie zmieniac kolor*/
+
+  }
+
+  
+  .przycisk-szukaj:hover{
+    background-color: rgba(158, 39, 94, 0.981);
+  }
+  #last-minute {
+    background-color: rgba(239, 246, 247, 0.755);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin: 0%; */
+  }
+
+  #zdjecia-last-minute {
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+  }
+  .last-minute {
+    color: rgb(22, 84, 177);
+    text-shadow: rgb(70, 70, 70);
+    text-transform: uppercase;
+    font-size: 23x;
+    font-weight: 500;
+    padding: 10px 15px;
+
+  }
+  /* #zdjecia-last-minute img:hover { tutaj powiekszanie zdjec */
+    /* box-shadow: 10px 10px 7px 7px rgba(0, 0, 0, 0.152); 
+    transform: scale(1.25);  */
+    /* position: relative;  */
+    /* z-index: 1;  */
+  /* } */
+
+  #zdjecia-last-minute a { 
+    position: relative; 
+    display: inline-block; 
+    height: 350px;
+  }
+  #zdjecia-last-minute a:before { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    opacity: 0; 
+    transition: opacity 0.25s ease-in; 
+    background: rgba(50, 50, 50, 0.6); 
+    content: attr(title); padding: 22% 5% 0; 
+    font-size: 24px; text-align: center; 
+    color: white; 
+}
+#zdjecia-last-minute a:hover:before { 
+    opacity: 1;
+    }
+
+  #zdjecia-last-minute img {
+    width: 250px;
+    height: 350px;
+    /* padding: 20px; */
+    margin-bottom: 25px;
+    
+  }
+  #zdjecia-last-minute input { /*input-odwoluje sie do czytaj wiecej*/
+    /* display: flex; */
+    padding: 4px 6px;
+    background-color: rgb(178, 115, 180);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    /* font-weight: 60px; */
+    /* position: absolute;
+    bottom: 100px;
+    left: 80px;
+    text-align: center; */
+    
+  }
+  #zdjecia-last-minute input:hover{
+    background-color: rgba(178, 115, 180, 0.534);
+    transition: 300ms ease-in-out;
+
+  }
+  #zdjecia-last-minute figure {
+    text-align: center; /*tekst na srodku*/
+
+  }
+  .container{
+    max-width: 1170px;
+    margin:auto;
+    
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer{
+    background-color: #24262b;
+      padding: 30px 0;
+      margin-top: 20px;
+      margin-bottom: 0%;
+  }
+  .footer-col{
+     width: 30%;
+     padding: 0 10px;
+  }
+  .footer-col h4{
+
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col ul {
+    list-style-type: none;
+  }
+  .footer-col h4 a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .footer-col ul li:not(:last-child){ /*odstep miedzy napisami pod o nas, kontakt*/
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px; /*dzieki temu przesuwa sie w lewo jak najedziemy*/
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  /*responsive*/
+  /* @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  } */
+
+
+
+
+
+
+  

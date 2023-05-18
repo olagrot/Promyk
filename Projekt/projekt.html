@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<!--Jakis tam komentarz zeby moc kopiowac = ctrl shift a -->
+<html> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta name="description" content="This is description">
+  <meta name="viewport" content="width=device, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Biuro podrozy</title> 
+  <link rel="stylesheet" type="text/css" href="projekt.css"> 
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  
+</head> 
+<body> 
+  <!--W header gorne menu -->
+    <header>
+      <!--w kazdej z nav osobno typ-podrozy tip-->
+      <div class="pasek-zaloguj-sie">
+      
+          <h4><a class="kontakt" href="kontakt.html"> <i class="fa fa-phone"></i> +48 123 456 789</a></h4>
+          <h4><a class="zaloguj-sie" href="zaloguj-sie.html"><i class="fas fa-user-alt"></i> Zaloguj sie</a></h4>
+          
+
+        </div>
+      <div id = "pasek-gorny">
+      <!--   <div id ="kolumny"> -->
+       <nav>
+        <ol id="menu">
+          <li><a href="#">Typ podrozy</a>
+            <ul>
+              <li><a href="rodzina.html">wakacje rodzinne</a></li>
+              <li><a href="#">wakacje w polsce</a></li>
+              <li><a href="#">dojazd wlasny</a></li>
+              <li><a href="#">podroz samolotem</a></li>
+              <li><a href="#">all inclusive</a></li>
+              <li><a href="narty.html">zima 2022</a></li>
+              <li><a href="lato.html">lato 2022</a></li>
+              <li><a href="#">bez paszportu</a></li>
+            </ul>
+        </ol>
+        </nav>
+
+        <nav>
+          <a href="projekt.html"><img class="logo" src="zdjecia/log0.png"></a>
+        </nav>
+       
+      </div>
+      </header> 
+  <!--W main cala reszta strony-->
+  <!---div -> jeden pod drugim, span -> jeden kolo drugiego-->
+      <main>
+        <article>
+          <section>
+            <!--<div id="zdjecie-tlo"></div>-->
+          <!-- <img id="zdjecie-tlo" src="tlo.jpg" alt="Zdjecie z wakacji"/> --><!---alt- kiedy zdjecie sie nie pokaze to pokaze sie to co w alt-->
+
+            <!--Jakas reklama czy cos-->
+            <aside>
+            </aside>
+          </section>
+          <section id="wyszukiwarka"> <!--Tu mozna zrobic "wyszukiwarke"-->
+            <div class="wyszukiwanie-bloki">
+              <input type="text" placeholder="Skad?" style="text-align: center"; /> <!--type: mozna rozne typy wprowadzic-->
+             <!--  <ul class="lista-krajow">
+                </ul> -->
+
+              <!--<textarea np rows="10" cols="30"></textarea> ->blok w ktorym mozemy zamiescic tekst -->
+              <input type="text" placeholder="Dokad?"style="text-align: center"/> 
+              <input type="text" placeholder="Kiedy?"style="text-align: center"> 
+              <input type="text" placeholder="Ilosc osob?"style="text-align: center"/> 
+              <input class="przycisk-szukaj" type="button" value="szukaj"/> 
+              
+            </div>
+          </section>
+        </article>
+        <!--tu mozna dodac kilka fotek ktore beda sie powiekszac jak sie najedzie-->
+        <section id="last-minute"> 
+          <h3 class="last-minute">oferty last minute</h3>
+          <div id="zdjecia-last-minute"> 
+            <figure><a class="efekt" href="last-minute.html" title="CHORWACJA"><img src="zdjecia/wakacje1.jpg" alt="Pierwsza oferta last minute"/></a><figcaption><input type="button" value="czytaj wiecej" onclick="window.location=('last-minute.html')" /></figcaption></figure>
+            <figure><a class="efekt" href="last-minute.html" title="HISZPANIA"><img src="zdjecia/wakacje2.jpg" alt="Pierwsza oferta last minute"/></a><figcaption><input type="button" value="czytaj wiecej"onclick="window.location=('last-minute.html')" /></figcaption></figure>
+            <figure><a class="efekt" href="last-minute.html" title="MALEDIWY"><img src="zdjecia/wakacje3.jpg" alt="Pierwsza oferta last minute"/></a><figcaption><input type="button" value="czytaj wiecej"onclick="window.location=('last-minute.html')" /></figcaption></figure>
+            <figure><a class="efekt" href="last-minute.html" title="POLSKA"><img src="zdjecia/wakacje4.jpg" alt="Pierwsza oferta last minute"/></a><figcaption><input type="button" value="czytaj wiecej" onclick="window.location=('last-minute.html')" /></figcaption></figure>
+            <figure><a class="efekt" href="last-minute.html" title="BULGARIA"><img src="zdjecia/wakacje5.jpg" alt="Pierwsza oferta last minute"/></a><figcaption><input type="button" value="czytaj wiecej" onclick="window.location=('last-minute.html')" /></figcaption></figure>
+            <!-- <figure><img src="wakacje6.jpg" alt="Pierwsza oferta last minute"/><figcaption><input type="button" value="czytaj wiecej"/></figcaption></figure> -->
+          </div>
+        </section>
+      </main>
+  <!--stopka na koncu strony -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4><a href="o nas.html">O nas</a></h4>
+          <ul>
+            <li><a href="HISTORIA-FIRMY.html">Historia firmy</a></li>
+            <li><a href="zaufanie.html">Dlaczego warto z nami wspolpracowac? </a></li>
+            <li><a href="recenzje.html">Opinie klientow</a></li>
+            <li><a href="formyplatnosci.html">Wygodne formy platnosci</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4><a href="kontakt.html">Kontakt</a></h4>
+          <ul>
+            <li><a href="#">+48 123 456 789</a></li>
+            <li><a href="#">promyk@gmail.com</a></li>
+            <li><a href="#">ul. Sloneczna 5</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Znajdz nas</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100008247574456"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/olagrot_/"><i class="fab fa-instagram"></i></a>
+         <a href="https://www.youtube.com/watch?v=mU6anWqZJcc&t=17915s"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+
+ <script>
+   </script>
+
+</body> 
+</html>  
